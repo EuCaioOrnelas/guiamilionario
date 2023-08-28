@@ -13,7 +13,7 @@
   align-items: center;
   gap: 10px;
   border-radius: 5px;
-  background: #d20909;
+  background: #dda50b;
   max-width: 800px;
 }
 
@@ -48,7 +48,7 @@
 
 .tittle .span {
   text-align: center;
-  color: #c6a035;
+  color: #ca341a;
   font-size: 23px;
   letter-spacing: 0.5px;
   text-shadow: 1px 1px 3px #00000096;
@@ -155,7 +155,7 @@
   flex-shrink: 0;
   padding: 2px 4px;
   border-radius: 5px;
-  background-color: #c6a035;
+  background-color: #ca341a;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -164,33 +164,205 @@
   transition: all 0.7s;
 }
 
-/*FOOTER*/
+/*FACEBOOK*/
 
-.faq_background {
+/*COMENTARIO1*/
+.face .imgface img {
+  width: 1400px;
+  border-radius: 6px;
+  margin-top: 20px;
+  filter: drop-shadow(2px 2px 7px rgba(0, 0, 0, 0.2));
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.background {
+  width: 935px;
+  height: 690px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.facebook .descript {
+  color: #000;
+  padding: 15px 15px;
+  display: flex;
+  font-size: 16px;
+  text-shadow: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.facebook .descript p {
+  padding-left: 8px;
+}
+
+.facebook .descript .line {
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #000000;
+}
+
+.facebook .descript .line span {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.comentario_1 {
+  display: flex;
+  gap: 30px;
+  padding: 30px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.comentario_1 .img1 .pessoa1 img {
+  left: 239px;
+  top: 308px;
+  width: 55px;
+  height: 55px;
+  border: solid 2px black;
+  border-radius: 999px;
+}
+
+.comentario_1 .background_comentario_1 {
+  display: flex;
+}
+
+.comentario1 {
+  width: 720px;
+  background-color: #f5f5f5;
+  padding: 20px 23px;
+  border: solid 1px #eeeded;
+  border-radius: 15px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.144));
+}
+
+.comentario1 .nome1 {
+  text-align: left;
+  color: #4269b6;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #00000015;
+}
+
+.comentario1 .menssagem1 {
+  font-size: 15px;
+  text-align: left;
+  color: #424242;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-shadow: 1px 1px 2px #00000015;
+}
+
+/*LIKE COMENTARIO 1*/
+.comentsection1 {
+  display: flex;
+  padding-left: 150px;
+  margin-top: -20px;
+}
+
+.comentsection1 .curtir {
+  font-size: 14px;
+  color: #4269b6;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: 1px 1px 2px #0000000c;
+}
+
+.comentsection1 .ponto {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #4269b6;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: 1px 1px 2px #0000000c;
+}
+
+.comentsection1 .min {
+  font-size: 14px;
+  color: #646464;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: 1px 1px 2px #0000000c;
+}
+
+/*LIKE*/
+.like_1 {
+  display: flex;
+  margin-left: 400px;
+  margin-top: -20px;
+  z-index: 50;
+}
+
+.like_1 .background_like1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 3px 7px;
+  background: #fff;
+  box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.background_like1 .imgheart {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-section {
-  width: 600px;
-  max-width: 600px;
+.background_like1 .imglike {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-section details summary {
-  border-bottom: 2px solid #282828;
-  padding: 15px;
-  margin: 15px;
-  font-size: 16px;
-  color: #fff;
-  text-align: start;
+.background_like1 .imgheart img {
+  width: 27px;
+  height: 24px;
+  border-radius: 999px;
+  flex-shrink: 0;
 }
 
-section details p {
-  color: #fff;
-  padding: 10px;
+.background_like1 .imglike img {
+  width: 30px;
+  height: 27px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.background_like1 .textlike {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #4269b6;
+  padding: 0 5px;
+  font-family: "Lato", sans-serif;
   font-size: 15px;
-  text-align: start;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-shadow: 1px 1px 2px #0000000c;
 }
 
 /*FOOTER*/
@@ -240,7 +412,7 @@ section details p {
 
   .tittle .span {
     text-align: center;
-    color: #c6a035;
+    color: #ca341a;
     font-size: 16px;
     letter-spacing: 0.5px;
     text-shadow: 1px 1px 3px #00000096;
@@ -408,7 +580,7 @@ section details p {
 
   .tittle span {
     border-radius: 5px;
-    background: #c6a035;
+    background: #ca341a;
     padding: 5px 20px 5px 20px;
   }
 
@@ -496,28 +668,121 @@ section details p {
     flex-shrink: 0;
     padding: 2px 4px;
     border-radius: 5px;
-    background-color: #c6a035;
+    background-color: #ca341a;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
-  section {
-    width: 400px;
-    max-width: 400px;
+
+  /*FACEBOOK*/
+  .background {
+    width: 450px;
+    height: 760px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #fff;
   }
 
-  section details summary {
-    border-bottom: 2px solid #282828;
-    padding: 15px;
-    margin: 15px;
-    font-size: 16px;
-    color: #fff;
-    text-align: start;
-  }
-
-  section details p {
-    color: #fff;
-    padding: 10px;
+  .facebook .descript {
+    color: #000;
+    padding: 15px 15px;
+    display: flex;
     font-size: 15px;
+    text-shadow: none;
+    flex-direction: column;
+    justify-content: flex-start;
     text-align: start;
+  }
+
+  .facebook .descript p {
+    padding-left: 8px;
+  }
+
+  .facebook .descript .line {
+    width: 420px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+    margin-top: -15px;
+  }
+
+  .facebook .descript .line span {
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  .comentario_1 {
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .comentario_1 .img1 .pessoa1 img {
+    left: 239px;
+    top: 308px;
+    width: 45px;
+    height: 45px;
+    border: solid 2px black;
+    border-radius: 999px;
+  }
+
+  .comentario_1 .background_comentario_1 {
+    display: flex;
+  }
+
+  .comentario1 {
+    width: 280px;
+    background-color: #f5f5f5;
+    padding: 20px 23px;
+    border: solid 1px #eeeded;
+    border-radius: 15px;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.144));
+  }
+
+  /*LIKE COMENTARIO 1*/
+  .comentsection1 {
+    display: flex;
+    padding-left: 110px;
+    margin-top: -20px;
+  }
+
+  .comentsection1 .curtir {
+    font-size: 14px;
+    color: #4269b6;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 1px 1px 2px #0000000c;
+  }
+
+  .comentsection1 .ponto {
+    padding: 0 10px;
+    font-size: 13px;
+    color: #4269b6;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 1px 1px 2px #0000000c;
+  }
+
+  .comentsection1 .min {
+    font-size: 13px;
+    color: #646464;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 1px 1px 2px #0000000c;
+  }
+
+  /*LIKE*/
+  .like_1 {
+    display: flex;
+    margin-left: 10px;
+    margin-top: -20px;
+    z-index: 50;
   }
 }
 
@@ -564,7 +829,7 @@ section details p {
     text-align: center;
     padding: 30px 0;
     color: #fff;
-    font-size: 9px;
+    font-size: 15px;
     letter-spacing: 0.5px;
 
     text-shadow: 1px 1px 3px #00000096;
@@ -572,8 +837,8 @@ section details p {
 
   .tittle .span {
     text-align: center;
-    color: #c6a035;
-    font-size: 9px;
+    color: #ca341a;
+    font-size: 14px;
     letter-spacing: 0.5px;
     text-shadow: 1px 1px 3px #00000096;
     max-width: 950px;
@@ -663,28 +928,115 @@ section details p {
     flex-shrink: 0;
     padding: 2px 4px;
     border-radius: 5px;
-    background-color: #c6a035;
+    background-color: #ca341a;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 
-  section {
-    width: 300px;
-    max-width: 300px;
+  /*FACEBOOK*/
+  .background {
+    width: 330px;
+    height: 900px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #fff;
   }
 
-  section details summary {
-    border-bottom: 2px solid #282828;
-    padding: 15px;
-    margin: 10px;
-    font-size: 16px;
-    color: #fff;
-    text-align: start;
-  }
-
-  section details p {
-    color: #fff;
-    padding: 10px;
+  .facebook .descript {
+    color: #000;
+    padding: 15px 15px;
+    display: flex;
     font-size: 15px;
+    text-shadow: none;
+    flex-direction: column;
+    justify-content: flex-start;
     text-align: start;
+  }
+
+  .facebook .descript p {
+    padding-left: 8px;
+  }
+
+  .facebook .descript .line {
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+    margin-top: -15px;
+  }
+
+  .facebook .descript .line span {
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  .comentario_1 {
+    display: flex;
+    gap: 0px;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .comentario_1 .img1 .pessoa1 img {
+    display: none;
+  }
+
+  .comentario_1 .background_comentario_1 {
+    display: flex;
+  }
+
+  .comentario1 {
+    width: 190px;
+    background-color: #f5f5f5;
+    padding: 20px 23px;
+    border: solid 1px #eeeded;
+    border-radius: 15px;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.144));
+  }
+
+  /*LIKE COMENTARIO 1*/
+  .comentsection1 {
+    display: flex;
+    padding-left: 50px;
+    margin-top: -20px;
+  }
+
+  .comentsection1 .curtir {
+    font-size: 14px;
+    color: #4269b6;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 1px 1px 2px #0000000c;
+  }
+
+  .comentsection1 .ponto {
+    padding: 0 10px;
+    font-size: 13px;
+    color: #4269b6;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 1px 1px 2px #0000000c;
+  }
+
+  .comentsection1 .min {
+    font-size: 13px;
+    color: #646464;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 1px 1px 2px #0000000c;
+  }
+
+  /*LIKE*/
+  .like_1 {
+    display: none;
+    margin-left: 10px;
+    margin-top: -20px;
+    z-index: 50;
   }
 }
